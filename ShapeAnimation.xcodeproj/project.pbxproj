@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B87A606B19343604009F28C5 /* OWSpringRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = B87A606A19343604009F28C5 /* OWSpringRectangle.m */; };
+		B8EFDBBA193317AC00661292 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EFDBB9193317AC00661292 /* Foundation.framework */; };
+		B8EFDBBC193317AC00661292 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EFDBBB193317AC00661292 /* CoreGraphics.framework */; };
+		B8EFDBBE193317AC00661292 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EFDBBD193317AC00661292 /* UIKit.framework */; };
+		B8EFDBC0193317AC00661292 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EFDBBF193317AC00661292 /* SpriteKit.framework */; };
+		B8EFDBC6193317AC00661292 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8EFDBC4193317AC00661292 /* InfoPlist.strings */; };
+		B8EFDBC8193317AC00661292 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EFDBC7193317AC00661292 /* main.m */; };
+		B8EFDBCC193317AC00661292 /* OWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EFDBCB193317AC00661292 /* OWAppDelegate.m */; };
+		B8EFDBCF193317AC00661292 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8EFDBCD193317AC00661292 /* Main.storyboard */; };
+		B8EFDBD2193317AC00661292 /* OWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EFDBD1193317AC00661292 /* OWViewController.m */; };
+		B8EFDBD5193317AC00661292 /* OWMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B8EFDBD4193317AC00661292 /* OWMyScene.m */; };
+		B8EFDBD9193317AC00661292 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8EFDBD8193317AC00661292 /* Images.xcassets */; };
+		B8EFDBF8193323B900661292 /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8EFDBF6193323B900661292 /* bg@2x.png */; };
+		B8EFDBFA1934233C00661292 /* bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8EFDBF91934233C00661292 /* bar@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B87A606919343604009F28C5 /* OWSpringRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSpringRectangle.h; sourceTree = "<group>"; };
+		B87A606A19343604009F28C5 /* OWSpringRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSpringRectangle.m; sourceTree = "<group>"; };
+		B8EFDBB6193317AC00661292 /* ShapeAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapeAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8EFDBB9193317AC00661292 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B8EFDBBB193317AC00661292 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B8EFDBBD193317AC00661292 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B8EFDBBF193317AC00661292 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		B8EFDBC3193317AC00661292 /* ShapeAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShapeAnimation-Info.plist"; sourceTree = "<group>"; };
+		B8EFDBC5193317AC00661292 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B8EFDBC7193317AC00661292 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8EFDBC9193317AC00661292 /* ShapeAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShapeAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		B8EFDBCA193317AC00661292 /* OWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWAppDelegate.h; sourceTree = "<group>"; };
+		B8EFDBCB193317AC00661292 /* OWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWAppDelegate.m; sourceTree = "<group>"; };
+		B8EFDBCE193317AC00661292 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8EFDBD0193317AC00661292 /* OWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWViewController.h; sourceTree = "<group>"; };
+		B8EFDBD1193317AC00661292 /* OWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWViewController.m; sourceTree = "<group>"; };
+		B8EFDBD3193317AC00661292 /* OWMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWMyScene.h; sourceTree = "<group>"; };
+		B8EFDBD4193317AC00661292 /* OWMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWMyScene.m; sourceTree = "<group>"; };
+		B8EFDBD8193317AC00661292 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B8EFDBDF193317AC00661292 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B8EFDBF6193323B900661292 /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
+		B8EFDBF91934233C00661292 /* bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8EFDBB3193317AC00661292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8EFDBBC193317AC00661292 /* CoreGraphics.framework in Frameworks */,
+				B8EFDBBE193317AC00661292 /* UIKit.framework in Frameworks */,
+				B8EFDBC0193317AC00661292 /* SpriteKit.framework in Frameworks */,
+				B8EFDBBA193317AC00661292 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8EFDBAD193317AC00661292 = {
+			isa = PBXGroup;
+			children = (
+				B8EFDBC1193317AC00661292 /* ShapeAnimation */,
+				B8EFDBB8193317AC00661292 /* Frameworks */,
+				B8EFDBB7193317AC00661292 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8EFDBB7193317AC00661292 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8EFDBB6193317AC00661292 /* ShapeAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8EFDBB8193317AC00661292 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8EFDBB9193317AC00661292 /* Foundation.framework */,
+				B8EFDBBB193317AC00661292 /* CoreGraphics.framework */,
+				B8EFDBBD193317AC00661292 /* UIKit.framework */,
+				B8EFDBBF193317AC00661292 /* SpriteKit.framework */,
+				B8EFDBDF193317AC00661292 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8EFDBC1193317AC00661292 /* ShapeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				B8EFDBF91934233C00661292 /* bar@2x.png */,
+				B8EFDBF6193323B900661292 /* bg@2x.png */,
+				B8EFDBCA193317AC00661292 /* OWAppDelegate.h */,
+				B8EFDBCB193317AC00661292 /* OWAppDelegate.m */,
+				B8EFDBCD193317AC00661292 /* Main.storyboard */,
+				B8EFDBD0193317AC00661292 /* OWViewController.h */,
+				B8EFDBD1193317AC00661292 /* OWViewController.m */,
+				B8EFDBD3193317AC00661292 /* OWMyScene.h */,
+				B8EFDBD4193317AC00661292 /* OWMyScene.m */,
+				B87A606919343604009F28C5 /* OWSpringRectangle.h */,
+				B87A606A19343604009F28C5 /* OWSpringRectangle.m */,
+				B8EFDBD8193317AC00661292 /* Images.xcassets */,
+				B8EFDBC2193317AC00661292 /* Supporting Files */,
+			);
+			path = ShapeAnimation;
+			sourceTree = "<group>";
+		};
+		B8EFDBC2193317AC00661292 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8EFDBC3193317AC00661292 /* ShapeAnimation-Info.plist */,
+				B8EFDBC4193317AC00661292 /* InfoPlist.strings */,
+				B8EFDBC7193317AC00661292 /* main.m */,
+				B8EFDBC9193317AC00661292 /* ShapeAnimation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8EFDBB5193317AC00661292 /* ShapeAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8EFDBEF193317AC00661292 /* Build configuration list for PBXNativeTarget "ShapeAnimation" */;
+			buildPhases = (
+				B8EFDBB2193317AC00661292 /* Sources */,
+				B8EFDBB3193317AC00661292 /* Frameworks */,
+				B8EFDBB4193317AC00661292 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShapeAnimation;
+			productName = ShapeAnimation;
+			productReference = B8EFDBB6193317AC00661292 /* ShapeAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8EFDBAE193317AC00661292 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = grenlight;
+			};
+			buildConfigurationList = B8EFDBB1193317AC00661292 /* Build configuration list for PBXProject "ShapeAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8EFDBAD193317AC00661292;
+			productRefGroup = B8EFDBB7193317AC00661292 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8EFDBB5193317AC00661292 /* ShapeAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8EFDBB4193317AC00661292 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8EFDBF8193323B900661292 /* bg@2x.png in Resources */,
+				B8EFDBC6193317AC00661292 /* InfoPlist.strings in Resources */,
+				B8EFDBD9193317AC00661292 /* Images.xcassets in Resources */,
+				B8EFDBFA1934233C00661292 /* bar@2x.png in Resources */,
+				B8EFDBCF193317AC00661292 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8EFDBB2193317AC00661292 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8EFDBD5193317AC00661292 /* OWMyScene.m in Sources */,
+				B87A606B19343604009F28C5 /* OWSpringRectangle.m in Sources */,
+				B8EFDBCC193317AC00661292 /* OWAppDelegate.m in Sources */,
+				B8EFDBD2193317AC00661292 /* OWViewController.m in Sources */,
+				B8EFDBC8193317AC00661292 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B8EFDBC4193317AC00661292 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8EFDBC5193317AC00661292 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B8EFDBCD193317AC00661292 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8EFDBCE193317AC00661292 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8EFDBED193317AC00661292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B8EFDBEE193317AC00661292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8EFDBF0193317AC00661292 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShapeAnimation/ShapeAnimation-Prefix.pch";
+				INFOPLIST_FILE = "ShapeAnimation/ShapeAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B8EFDBF1193317AC00661292 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShapeAnimation/ShapeAnimation-Prefix.pch";
+				INFOPLIST_FILE = "ShapeAnimation/ShapeAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8EFDBB1193317AC00661292 /* Build configuration list for PBXProject "ShapeAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8EFDBED193317AC00661292 /* Debug */,
+				B8EFDBEE193317AC00661292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8EFDBEF193317AC00661292 /* Build configuration list for PBXNativeTarget "ShapeAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8EFDBF0193317AC00661292 /* Debug */,
+				B8EFDBF1193317AC00661292 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8EFDBAE193317AC00661292 /* Project object */;
+}
