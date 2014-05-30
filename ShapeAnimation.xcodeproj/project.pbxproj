@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B87A606B19343604009F28C5 /* OWSpringRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = B87A606A19343604009F28C5 /* OWSpringRectangle.m */; };
+		B87C019F193826FF00AA47C7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B87C019E193826FF00AA47C7 /* README.md */; };
 		B8EFDBBA193317AC00661292 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EFDBB9193317AC00661292 /* Foundation.framework */; };
 		B8EFDBBC193317AC00661292 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EFDBBB193317AC00661292 /* CoreGraphics.framework */; };
 		B8EFDBBE193317AC00661292 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8EFDBBD193317AC00661292 /* UIKit.framework */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		B87A606919343604009F28C5 /* OWSpringRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWSpringRectangle.h; sourceTree = "<group>"; };
 		B87A606A19343604009F28C5 /* OWSpringRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWSpringRectangle.m; sourceTree = "<group>"; };
+		B87C019E193826FF00AA47C7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		B8EFDBB6193317AC00661292 /* ShapeAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapeAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8EFDBB9193317AC00661292 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B8EFDBBB193317AC00661292 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,6 +68,7 @@
 		B8EFDBAD193317AC00661292 = {
 			isa = PBXGroup;
 			children = (
+				B87C019E193826FF00AA47C7 /* README.md */,
 				B8EFDBC1193317AC00661292 /* ShapeAnimation */,
 				B8EFDBB8193317AC00661292 /* Frameworks */,
 				B8EFDBB7193317AC00661292 /* Products */,
@@ -176,6 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B87C019F193826FF00AA47C7 /* README.md in Resources */,
 				B8EFDBF8193323B900661292 /* bg@2x.png in Resources */,
 				B8EFDBC6193317AC00661292 /* InfoPlist.strings in Resources */,
 				B8EFDBD9193317AC00661292 /* Images.xcassets in Resources */,
